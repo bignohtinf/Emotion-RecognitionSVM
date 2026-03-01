@@ -116,16 +116,21 @@ Mô hình đạt được:
 
 ### Ví Dụ Kết Quả
 
-**Đầu vào:**
-- `An.png` → **Happiness** (Vui vẻ)
-- `Hadoi.png` → **Sadness** (Buồn)
-- `Linh.png` → **Surprise** (Ngạc nhiên)
+<p align="center">
+  <img src="inference/DATA/IN/ancuoi.png" width="180"/>
+  <img src="inference/DATA/IN/Hadoi.png" width="180"/>
+  <img src="inference/DATA/IN/Linh.png" width="180"/>
+</p>
 
-**Đầu ra:**
-Ảnh được xử lý với:
-- Bounding box xung quanh khuôn mặt (màu xanh)
-- Nhãn cảm xúc được dự đoán
-- Tên file được đổi thành: `{Emotion}_{original_filename}`
+<p align="center"><b>Đầu vào</b></p>
+
+<p align="center">
+  <img src="inference/DATA/OUT/Happiness_ancuoi.png" width="180"/>
+  <img src="inference/DATA/OUT/Sadness_Hadoi.png" width="180"/>
+  <img src="inference/DATA/OUT/Surprise_Linh.png" width="180"/>
+</p>
+
+<p align="center"><b>Đầu ra</b></p>
 
 ## Cấu Trúc Dự Án
 
